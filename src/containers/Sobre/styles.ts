@@ -7,7 +7,7 @@ export const GithubSection = styled.div`
     height: 157px;
 
     @media (max-width: 768px) {
-      height: unset;
+      height: auto;
       width: 100%;
     }
   }
