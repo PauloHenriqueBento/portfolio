@@ -5,6 +5,7 @@ import pluginReact from 'eslint-plugin-react'
 import pluginReactHooks from 'eslint-plugin-react-hooks'
 import eslintConfigPrettier from 'eslint-config-prettier'
 import prettierPlugin from 'eslint-plugin-prettier'
+import react from 'eslint-plugin-react'
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -16,7 +17,8 @@ export default [
   {
     plugins: {
       'react-hooks': pluginReactHooks,
-      prettier: prettierPlugin
+      prettier: prettierPlugin,
+      react
     },
     rules: {
       'react-hooks/rules-of-hooks': 'error',
